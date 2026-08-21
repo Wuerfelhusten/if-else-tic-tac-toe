@@ -1,0 +1,15 @@
+[project]
+name = "if-else-tic-tac-toe"
+version = "0.1.0"
+description = "A dark Qt Tic-Tac-Toe whose generated engine only uses if/elif/else"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyside6>=6.8,<7",
+]
+
+[dependency-groups]
+dev = []
+
+[tool.uv]
+package = false
