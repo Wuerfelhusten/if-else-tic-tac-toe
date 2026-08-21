@@ -31,7 +31,7 @@ uv run generator.py
 uv run main.py
 ```
 
-The generated `main.py` contains the complete engine, Qt interface, dark theme, and application entry point. It is excluded through `.gitignore`, leaving only the generator, tests, and project metadata in version control.
+The generated `main.py` contains the complete engine, Qt interface, dark theme, and application entry point. Its size exceeds GitHub's regular file limit, so the repository stores it through Git LFS.
 
 ## Test
 
